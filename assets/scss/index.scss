@@ -1,0 +1,18 @@
+// .navbar{
+//   border-bottom: 5px solid $warning;
+// }
+
+.logo{
+  background-image: url(/assets/images/logo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+  @media (min-width: 768px) { 
+  width: 150px;
+  }
+}
