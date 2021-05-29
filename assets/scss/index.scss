@@ -17,9 +17,6 @@ h1,h2,h3,h4,h5,h6,p,span{
   text-indent: 101%;
   overflow: hidden;
   white-space: nowrap;
-  @media (min-width: 768px) { 
-  width: 150px;
-  }
 }
 
 .socialIcon{
@@ -31,4 +28,8 @@ h1,h2,h3,h4,h5,h6,p,span{
 }
 .cardSticky{
   top: 70px;
+}
+
+.cardRadius{
+  
 }
