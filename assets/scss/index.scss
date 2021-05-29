@@ -30,6 +30,16 @@ h1,h2,h3,h4,h5,h6,p,span{
   top: 70px;
 }
 
-.cardRadius{
-  
+.btn-warning:hover{
+  background-color: $red;
+  border-color:$red;
+  color: white;
+}
+.btn-outline-secondary:hover{
+  background-color: $yellow;
+  border-color: $yellow;
+  color: $secondary;
+  i{
+    color: $red;
+  }
 }

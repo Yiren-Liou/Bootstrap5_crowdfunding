@@ -10263,4 +10263,20 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, span {
 .cardSticky {
   top: 70px;
 }
+
+.btn-warning:hover {
+  background-color: #FF785E;
+  border-color: #FF785E;
+  color: white;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #FFDF65;
+  border-color: #FFDF65;
+  color: #858377;
+}
+
+.btn-outline-secondary:hover i {
+  color: #FF785E;
+}
 /*# sourceMappingURL=style.css.map */
