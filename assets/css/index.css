@@ -31,4 +31,8 @@ h1, h2, h3, h4, h5, h6, p, span {
 .imagesRadius {
   border-radius: 2rem;
 }
+
+.cardSticky {
+  top: 70px;
+}
 /*# sourceMappingURL=index.css.map */
