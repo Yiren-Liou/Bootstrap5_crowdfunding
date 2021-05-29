@@ -1,3 +1,11 @@
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+  margin-bottom: 0;
+}
+
 .logo {
   background-image: url(/assets/images/logo.jpg);
   background-position: center;
@@ -14,5 +22,13 @@
   .logo {
     width: 150px;
   }
+}
+
+.socialIcon {
+  width: 30px;
+}
+
+.imagesRadius {
+  border-radius: 2rem;
 }
 /*# sourceMappingURL=index.css.map */
