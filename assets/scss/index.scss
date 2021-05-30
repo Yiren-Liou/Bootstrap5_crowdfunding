@@ -20,6 +20,10 @@ h1,h2,h3,h4,h5,h6,p,span{
   }
 }
 
+.text-justify{
+  text-align: justify;
+}
+
 .logo{
   background-image: url(/assets/images/logo.jpg);
   background-position: center;
@@ -43,6 +47,15 @@ h1,h2,h3,h4,h5,h6,p,span{
 .imagesRadius{
   border-radius: 2rem ;
 }
+
+.imgBg{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .cardSticky{
   top: 80px;
 }
