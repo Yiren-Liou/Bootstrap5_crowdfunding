@@ -6,30 +6,6 @@ h1,h2,h3,h4,h5,h6,p,span{
   margin-bottom: 0;
 }
 
-
-.logo{
-  background-image: url(/assets/images/logo.jpg);
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  display: block;
-  width: 100px;
-  text-indent: 101%;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.socialIcon{
-  width: 30px;
-}
-
-.imagesRadius{
-  border-radius: 2rem ;
-}
-.cardSticky{
-  top: 70px;
-}
-
 .btn-warning:hover{
   background-color: $red;
   border-color:$red;
@@ -43,3 +19,32 @@ h1,h2,h3,h4,h5,h6,p,span{
     color: $red;
   }
 }
+
+.logo{
+  background-image: url(/assets/images/logo.jpg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  width: 100px;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.subNav{
+  z-index: $zindex-sticky;
+}
+
+.socialIcon{
+  width: 30px;
+}
+
+.imagesRadius{
+  border-radius: 2rem ;
+}
+.cardSticky{
+  top: 80px;
+}
+
+
