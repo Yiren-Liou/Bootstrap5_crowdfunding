@@ -1,10 +1,22 @@
-(function () {
-  'use strict'
+let sponsorBtn = document.getElementById('sponsorBtn');
+let subNav = document.getElementById('subNav');
 
-  // Fetch all the forms we want to apply custom Bootstrap validation styles to
-  var forms = document.querySelectorAll('.needs-validation')
+init();
+window.addEventListener("scroll",function(e){
+  triggerSponsorBtn();
+  triggerSubNav();
+});
 
-  // Loop over them and prevent submission
+
+function init(){
+  let tooltipTriggerList = [].slice.call(
+    document.querySelectorAll('[data-bs-toggle="tooltip"]')
+  );
+  let tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+    return new bootstrap.Tooltip(tooltipTriggerEl);
+  });
+
+  let forms = document.querySelectorAll('.needs-validation')
   Array.prototype.slice.call(forms)
     .forEach(function (form) {
       form.addEventListener('submit', function (event) {
@@ -15,12 +27,22 @@
 
         form.classList.add('was-validated')
       }, false)
-    })
-})();
+    });
+}
 
-var tooltipTriggerList = [].slice.call(
-  document.querySelectorAll('[data-bs-toggle="tooltip"]')
-);
-var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-  return new bootstrap.Tooltip(tooltipTriggerEl);
-});
+function triggerSponsorBtn(){
+  if(window.pageYOffset > 400 && window.pageYOffset < 1800){
+    sponsorBtn.classList.remove('d-none');
+  }else{
+    sponsorBtn.classList.add('d-none');
+  }
+}
+
+function triggerSubNav(){
+  console.log(window.pageYOffset);
+  if(window.pageYOffset > 1900){
+    subNav.classList.remove('position-sticky','top-0','zIndexTop');
+  }else{
+    subNav.classList.add('position-sticky','top-0','zIndexTop');
+  }
+}
