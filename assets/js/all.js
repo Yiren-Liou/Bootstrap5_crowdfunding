@@ -39,7 +39,6 @@ function triggerSponsorBtn(){
 }
 
 function triggerSubNav(){
-  console.log(window.pageYOffset);
   if(window.pageYOffset > 1900){
     subNav.classList.remove('position-sticky','top-0','zIndexTop');
   }else{
