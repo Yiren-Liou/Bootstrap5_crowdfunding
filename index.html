@@ -370,29 +370,31 @@
             </div>
             <p class="position-absolute top-0 start-50 translate-middle text-info fs-2 fw-bold bg-white p-2">贊助專案</p>
           </div>
-          <form class="my-5">
+          <form class="needs-validation my-5" novalidate>
             <div class="mb-3">
               <label for="sponsorProject" class="form-label">贊助方案</label>
-              <select id="sponsorProject" class="form-select">
+              <select id="sponsorProject" class="form-select" required>
                 <option value="" selected>請選擇一個方案</option>
                 <option value="oneBuyOne">買一送一，只有兩百組別錯過</option>
               </select>
+              <div class="valid-feedback">請選擇方案呦</div>
             </div>
             <div class="mb-3">
               <label for="sponsorName" class="form-label">收件人姓名</label>
-              <input type="text" class="form-control" id="sponsorName">
+              <input type="text" class="form-control" id="sponsorName" required>
+              <div class="valid-feedback">請填寫收件人姓名呦</div>
             </div>
             <div class="mb-3">
               <label for="sponsorTel" class="form-label">聯絡電話</label>
-              <input type="tel" class="form-control" id="sponsorTel">
+              <input type="tel" class="form-control" id="sponsorTel" required>
             </div>
             <div class="mb-3">
               <label for="sponsorEmail" class="form-label">聯絡信箱</label>
-              <input type="email" class="form-control" id="sponsorEmail">
+              <input type="email" class="form-control" id="sponsorEmail" required>
             </div>
             <div class="mb-5">
               <label for="paidMethod" class="form-label">付款方式</label>
-              <select id="paidMethod" class="form-select">
+              <select id="paidMethod" class="form-select" required>
                 <option value="" selected>請選擇付款方式</option>
                 <option value="creditCard">信用卡付款</option>
                 <option value="convenientStore">超商付款</option>
