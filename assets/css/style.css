@@ -10221,6 +10221,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, span {
   margin-bottom: 0;
 }
 
+.btn-warning {
+  color: #636057;
+}
+
 .btn-warning:hover {
   background-color: #FF785E;
   border-color: #FF785E;
@@ -10253,10 +10257,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, span {
   white-space: nowrap;
 }
 
-.subNav {
-  z-index: 1020;
-}
-
 .socialIcon {
   width: 30px;
 }
@@ -10275,5 +10275,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, span {
 
 .cardSticky {
   top: 80px;
+}
+
+.zIndexTop {
+  z-index: 1020;
 }
 /*# sourceMappingURL=style.css.map */

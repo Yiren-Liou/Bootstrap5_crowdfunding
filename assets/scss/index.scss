@@ -9,11 +9,15 @@ h1,h2,h3,h4,h5,h6,p,span{
   margin-bottom: 0;
 }
 
-.btn-warning:hover{
-  background-color: $red;
-  border-color:$red;
-  color: white;
+.btn-warning{
+  color: $dark;
+  &:hover{
+    background-color: $red;
+    border-color:$red;
+    color: white;
+  }
 }
+
 .btn-outline-secondary:hover{
   background-color: $yellow;
   border-color: $yellow;
@@ -39,10 +43,6 @@ h1,h2,h3,h4,h5,h6,p,span{
   white-space: nowrap;
 }
 
-.subNav{
-  z-index: $zindex-sticky;
-}
-
 .socialIcon{
   width: 30px;
 }
@@ -61,6 +61,10 @@ h1,h2,h3,h4,h5,h6,p,span{
 
 .cardSticky{
   top: 80px;
+}
+
+.zIndexTop{
+  z-index: $zindex-sticky;
 }
 
 
