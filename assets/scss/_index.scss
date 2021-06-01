@@ -9,7 +9,7 @@ h1,h2,h3,h4,h5,h6,p,span{
   margin-bottom: 0;
 }
 
-.btn-warning{
+.btn-primary{
   color: $dark;
   &:hover{
     background-color: $red;
@@ -66,5 +66,3 @@ h1,h2,h3,h4,h5,h6,p,span{
 .zIndexTop{
   z-index: $zindex-sticky;
 }
-
-
