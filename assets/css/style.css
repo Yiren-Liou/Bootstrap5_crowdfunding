@@ -11935,7 +11935,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, span {
 }
 
 .logo {
-  background-image: url(https://hexschool.github.io/boootstrap5WebLayout/assets/logo.jpg);
+  background-image: url(../images/logo.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
